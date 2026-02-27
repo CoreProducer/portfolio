@@ -41,3 +41,27 @@ section {
 h1, h2 {
     color: #333;
 }
+
+/* <600px ,601px, 768px, 992px, 1200px */
+
+@media (max-width: 600px) {
+    .wrapper-main {
+            width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .wrapper-main {
+            width: 100%;
+    }
+    
+@media (min-width: 992px) {
+    .wrapper-main {
+            width: 100%;
+    }
+
+@media (min-width: 1200px) {
+    .wrapper-main {
+            width: 100%;
+    }
+}
